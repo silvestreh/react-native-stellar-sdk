@@ -13,7 +13,7 @@ const randomBytesAsync = length => {
                 reject(err);
                 return;
             }
-            resolve(new Buffer(base64String, 'base64'));
+            resolve(Buffer.from(base64String, 'base64'));
         });
     });
 };
