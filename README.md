@@ -1,5 +1,7 @@
 # react-native-stellar-sdk
 
+[![npm version](https://badge.fury.io/js/%40pigzbe%2Freact-native-stellar-sdk.svg)](https://badge.fury.io/js/%40pigzbe%2Freact-native-stellar-sdk)
+
 This package polyfills the [stellar-sdk](https://github.com/stellar/js-stellar-sdk) for React Native.
 
 It includes native randomBytes for iOS and Android via [react-native-randombytes](https://github.com/mvayngrib/react-native-randombytes).
