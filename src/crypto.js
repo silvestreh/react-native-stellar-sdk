@@ -1,31 +1,31 @@
-import createHash from 'create-hash';
-import {NativeModules} from 'react-native';
-const {RNRandomBytes} = NativeModules;
+import createHash from 'create-hash'
+import { NativeModules } from 'react-native'
+const { RNRandomBytes } = NativeModules
 
 if (!RNRandomBytes) {
-    throw new Error('react-native-randombytes not linked');
+  throw new Error('react-native-randombytes not linked')
 }
 
 const randomBytesAsync = length => {
-    return new Promise((resolve, reject) => {
-        RNRandomBytes.randomBytes(length, (err, base64String) => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            resolve(Buffer.from(base64String, 'base64'));
-        });
-    });
-};
+  return new Promise((resolve, reject) => {
+    RNRandomBytes.randomBytes(length, (err, base64String) => {
+      if (err) {
+        reject(err)
+        return
+      }
+      resolve(Buffer.from(base64String, 'base64'))
+    })
+  })
+}
 
 const randomBytes = () => {
-    throw new Error('Use crypto.randomBytesAsync for React Native');
-};
+  throw new Error('Use crypto.randomBytesAsync for React Native')
+}
 
 export {
-    randomBytesAsync,
-    randomBytes,
-    createHash
-};
+  randomBytesAsync,
+  randomBytes,
+  createHash
+}
 
-export default module.exports;
+export default module.exports

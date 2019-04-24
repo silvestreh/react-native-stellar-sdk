@@ -10,30 +10,47 @@
   },
   "main": "stellar-sdk.js",
   "scripts": {
-    "start": "webpack",
+    "build": "webpack",
     "test": "jest",
+    "lint": "standard --fix",
     "publish": "npm publish --access public"
   },
   "dependencies": {
-    "react-native-randombytes": "3.5.0"
+    "react-native-randombytes": "3.5.2"
   },
   "devDependencies": {
-    "babel-eslint": "9.0.0",
-    "babel-loader": "7.1.4",
-    "babel-preset-react-native": "4.0.1",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.5",
     "create-hash": "1.2.0",
-    "eslint": "5.5.0",
-    "jest": "23.6.0",
-    "react-native": "0.57.0",
-    "stellar-sdk": "0.11.0",
-    "webpack": "4.18.1",
-    "webpack-cli": "3.1.0"
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-native": "0.58.5",
+    "stellar-sdk": "0.15.3",
+    "standard": "^12.0.1",
+    "webpack": "4.30.0",
+    "webpack-cli": "3.3.1"
   },
   "jest": {
     "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
     "verbose": true,
     "setupFiles": [
       "<rootDir>/test/setup.js"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "describe",
+      "expect",
+      "it",
+      "beforeEach",
+      "afterEach"
+    ],
+    "ignore": [
+      "stellar-sdk.js"
     ]
   }
 }
