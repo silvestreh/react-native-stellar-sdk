@@ -1,6 +1,6 @@
 {
   "name": "@pigzbe/react-native-stellar-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Stellar SDK for React Native",
   "author": "Ian McGregor <ian@mcgregor.codes>",
   "license": "MIT",
@@ -25,8 +25,8 @@
     "jest": "24.7.1",
     "metro-react-native-babel-preset": "0.52.0",
     "react-native": "0.58.5",
-    "stellar-sdk": "0.15.3",
     "standard": "^12.0.1",
+    "stellar-sdk": "0.15.3",
     "webpack": "4.30.0",
     "webpack-cli": "3.3.1"
   },
