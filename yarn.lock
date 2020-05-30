@@ -7836,10 +7836,10 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-stellar-base@^2.1.4:
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/stellar-base/-/stellar-base-2.1.8.tgz#315f5b5b82f969410c043a0c88d6c9b4fda1c3bc"
-  integrity sha512-e7XPK79ZbKKq5KE/GX05LjgrQN6PPvqxiRy415Z0I6tfTR7fcpUiesJQ9m4/w92hJgNjFnA7HyLY4/OapBnChg==
+stellar-base@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/stellar-base/-/stellar-base-3.0.3.tgz#e4b033d113f11e9239ce4fe8ead6e9a791f04f14"
+  integrity sha512-Kb79uQOmlMhGw96rg5qRA+rxK58N2eH+q8OuqVgQr85t5l/+p35BFKVl2yW3xN/OVwY7NrAjFn/KJmoxjcTfeg==
   dependencies:
     base32.js "^0.1.0"
     bignumber.js "^4.0.0"
@@ -7851,10 +7851,10 @@ stellar-base@^2.1.4:
   optionalDependencies:
     sodium-native "^2.3.0"
 
-stellar-sdk@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/stellar-sdk/-/stellar-sdk-4.1.0.tgz#02cd231dbebbda3605eb11a3e159b3b9fb0b6958"
-  integrity sha512-/U4KW+7+DMqmnbYuV7XDbm3dEBApiUIry1PGJOQJl02kcOSFxR2rkpKOJWwbEiJHw2DRJsl5BOzPco4xDK7/aw==
+stellar-sdk@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/stellar-sdk/-/stellar-sdk-5.0.3.tgz#9eb329f8645090d3b794998f9afd82f7516ae5b4"
+  integrity sha512-gPcw3xbwPvsRQ1GDQtsfXkKdaW2Qp9BaUtgmqzWyqyk+gEClQg2Q9pQlGYKXttaE/RJmsCcZDIFe5x51AK92bg==
   dependencies:
     "@types/eventsource" "^1.1.2"
     "@types/node" ">= 8"
@@ -7867,7 +7867,7 @@ stellar-sdk@4.1.0:
     eventsource "^1.0.7"
     lodash "^4.17.11"
     randombytes "^2.1.0"
-    stellar-base "^2.1.4"
+    stellar-base "^3.0.3"
     toml "^2.3.0"
     tslib "^1.10.0"
     urijs "^1.19.1"
