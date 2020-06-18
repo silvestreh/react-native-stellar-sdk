@@ -22,8 +22,7 @@
     "release:major": "npm version major && npm run publish"
   },
   "dependencies": {
-    "expo-random": "^8.1.0",
-    "react-native-randombytes": "3.5.3"
+    "expo-random": "^8.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
