@@ -1,6 +1,6 @@
-# react-native-stellar-sdk
+# epo-stellar-sdk
 
-[![npm version](https://badge.fury.io/js/%40pigzbe%2Freact-native-stellar-sdk.svg)](https://badge.fury.io/js/%40pigzbe%2Freact-native-stellar-sdk)
+[![npm version](https://badge.fury.io/js/expo-stellar-sdk.svg)](https://badge.fury.io/js/expo-stellar-sdk)
 
 This package polyfills the [stellar-sdk](https://github.com/stellar/js-stellar-sdk) for React Native.
 
@@ -11,13 +11,7 @@ Due to the asynchronous nature of React Native's native bridge, this package add
 ## Installation
 
 ```shell
-yarn add @pigzbe/react-native-stellar-sdk
-```
-
-Link native randomBytes module:
-
-```shell
-react-native link react-native-randombytes
+npm i expo-stellar-sdk
 ```
 
 ## Usage
