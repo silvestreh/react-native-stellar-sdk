@@ -17,7 +17,7 @@ npm i expo-stellar-sdk
 ## Usage
 
 ```javascript
-import { Keypair } from '@pigzbe/react-native-stellar-sdk'
+import { Keypair } from 'expo-stellar-sdk'
 
 const keypair = await Keypair.randomAsync()
 const publicKey = keypair.publicKey()
