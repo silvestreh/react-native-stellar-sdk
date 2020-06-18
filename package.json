@@ -1,6 +1,6 @@
 {
   "name": "expo-stellar-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Stellar SDK for Expo",
   "author": "Ian McGregor <ian@mcgregor.codes>",
   "contributors": [
