@@ -1,9 +1,11 @@
 {
   "name": "expo-stellar-sdk",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Stellar SDK for Expo",
   "author": "Ian McGregor <ian@mcgregor.codes>",
-  "contributors": ["Silvestre Herrera <silvestre.herrera@gmail.com>"],
+  "contributors": [
+    "Silvestre Herrera <silvestre.herrera@gmail.com>"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
