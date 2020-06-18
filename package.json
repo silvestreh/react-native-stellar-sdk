@@ -1,12 +1,13 @@
 {
-  "name": "@pigzbe/react-native-stellar-sdk",
-  "version": "1.2.0",
-  "description": "Stellar SDK for React Native",
+  "name": "expo-stellar-sdk",
+  "version": "0.0.0",
+  "description": "Stellar SDK for Expo",
   "author": "Ian McGregor <ian@mcgregor.codes>",
+  "contributors": ["Silvestre Herrera <silvestre.herrera@gmail.com>"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pigzbe/react-native-stellar-sdk"
+    "url": "https://github.com/silvestreh/expo-stellar-sdk"
   },
   "main": "stellar-sdk.js",
   "scripts": {
@@ -16,6 +17,7 @@
     "publish": "npm publish --access public"
   },
   "dependencies": {
+    "expo-random": "^8.1.0",
     "react-native-randombytes": "3.5.3"
   },
   "devDependencies": {
